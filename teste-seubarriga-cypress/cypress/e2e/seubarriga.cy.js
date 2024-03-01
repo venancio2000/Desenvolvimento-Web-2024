@@ -19,4 +19,9 @@ describe('Shoud test at a functional level', () => {
       
     })
 
+    it('Should update an account', () => {
+
+      [contains.("., 'conta de teste')]/..//i[@class='far fa-edit']".click()
+    })
+
   })
